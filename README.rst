@@ -14,11 +14,11 @@ A CLI utility to create .gitignore files, to keep your source control so fresh a
 .. image:: https://dl.dropboxusercontent.com/u/1693233/github/andre3000_crop.jpg
     :alt: Andre
 
-Install
--------
+Install/Upgrade
+---------------
 ::
 
-    $ pip install gig
+    $ pip install -U gig
 
 Usage
 -----
@@ -69,7 +69,7 @@ License
 Changelog
 ---------
 
-0.2.0 (unreleased)
+0.2.0 (09/09/2013)
 ++++++++++++++++++
 - Add support for global gitignore files.
 
