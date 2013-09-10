@@ -67,7 +67,8 @@ def list_languages(global_=False):
         resp_data = res.json()
         if global_:
             # Parse response json
-            languages = [d['name'].split('.')[0] for d in resp_data]
+            languages = [d['name'].split('.')[0] for d in resp_data
+                            if d['name'] != 'README.md']
         else:
             languages = resp_data
         for language in languages:
