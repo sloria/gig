@@ -75,6 +75,12 @@ class TestGig(unittest.TestCase):
         assert_in("### Python ###", gitignore)
         assert_in("### Ruby ###", gitignore)
 
+    def test_generate_global_gitignore(self):
+        gitignore = gig.generate_gitignore(["Windows", "OSX"], global_=True)
+        assert_in("Thumbs.db", gitignore)
+        assert_in(".DS_Store", gitignore)
+
+
 def run_cmd(cmd):
     '''Run a shell command `cmd` and return its output.'''
     return check_output(cmd, shell=True).decode('utf-8')

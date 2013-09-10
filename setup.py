@@ -21,7 +21,7 @@ def read(fname):
 
 setup(
     name='gig',
-    version="0.1.0",
+    version="0.2.0",
     description='Generate .gitignore templates from the command line',
     long_description=read("README.rst"),
     author='Steven Loria',
