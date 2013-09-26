@@ -69,6 +69,10 @@ License
 Changelog
 ---------
 
+0.2.1 (09/26/2013)
+++++++++++++++++++
+- Remove gig version number from headers.
+
 0.2.0 (09/09/2013)
 ++++++++++++++++++
 - Add support for global gitignore files.
