@@ -1,0 +1,14 @@
+repos:
+- repo: https://github.com/asottile/pyupgrade
+  rev: v1.16.3
+  hooks:
+  - id: pyupgrade
+    args: [--py36-plus]
+- repo: https://github.com/python/black
+  rev: 19.3b0
+  hooks:
+  - id: black
+- repo: https://gitlab.com/pycqa/flake8
+  rev: 3.7.7
+  hooks:
+  - id: flake8
