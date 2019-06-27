@@ -61,15 +61,15 @@ MIT Licensed.
 
 ## Changelog
 
-### 1.0.0
+### 1.0.0 (2019-06-27)
 
 - Write to `stdout`.
 - Only Python>=3.6 is supported.
 
-### 0.2.0 (09/09/2013)
+### 0.2.0 (2013-09-09)
 
 - Add support for global gitignore files.
 
-### 0.1.0 (09/07/2013)
+### 0.1.0 (2013-09-07)
 
-- First release
+- First release.
