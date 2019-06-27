@@ -11,7 +11,7 @@ jobs:
 
   - stage: PyPI Release
     if: tag IS present
-    python: "3.6"
+    python: "3.7"
     env: []
     install: skip
     script: skip
