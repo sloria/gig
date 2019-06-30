@@ -5,7 +5,7 @@ A .gitignore template generator.
 
 Usage:
   gig list [--global]
-  gig <language> ... [--verbose --global]
+  gig <language> ... [--verbose --global --no-header]
   gig Python Ruby Clojure ...
 
 
@@ -19,6 +19,7 @@ Options:
   --version             Show version.
   list                  List available languages. NOTE: Languages are case-sensitive.
   -g --global           Generate a global gitignore.
+  -n --no-header        Suppress the header in the output.
   -v --verbose          Toggle verbose output.
 """
 from pkg_resources import DistributionNotFound, get_distribution
@@ -99,7 +100,8 @@ def main():
         gitignore, code = generate_gitignore(
             languages=args["<language>"], global_=args["--global"]
         )
-        output = f"{HEADER}{gitignore}"
+        header = "" if args["--no-header"] else HEADER
+        output = f"{header}{gitignore}"
     if code:
         sys.exit(code)
     print(output, end="")
