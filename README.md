@@ -61,6 +61,10 @@ MIT Licensed.
 
 ## Changelog
 
+### 1.1.0 (2019-06-30)
+
+- Add `--no-header`.
+
 ### 1.0.0 (2019-06-27)
 
 - Write to `stdout`.
