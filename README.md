@@ -1,7 +1,7 @@
 # gig
 
 [![PyPI Latest Version](https://badgen.net/pypi/v/gig)](https://pypi.org/project/gig/)
-[![Travis CI Status](https://badgen.net/travis/sloria/gig)](https://travis-ci.org/sloria/gig)
+[![Build Status](https://dev.azure.com/sloria1/sloria/_apis/build/status/sloria.gig?branchName=master)](https://dev.azure.com/sloria1/sloria/_build/latest?definitionId=2&branchName=master)
 
 A CLI to create .gitignore files, to keep your source control so fresh and clean.
 
