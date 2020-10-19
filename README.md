@@ -61,6 +61,10 @@ MIT Licensed.
 
 ## Changelog
 
+### 1.2.0 (unreleased)
+
+- Test against Python 3.8 and 3.9.
+
 ### 1.1.0 (2019-06-30)
 
 - Add `--no-header`.
