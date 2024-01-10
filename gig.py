@@ -22,7 +22,7 @@ Options:
   -n --no-header        Suppress the header in the output.
   -v --verbose          Toggle verbose output.
 """
-from pkg_resources import DistributionNotFound, get_distribution
+import importlib.metadata
 import typing
 import sys
 import logging
@@ -31,8 +31,8 @@ from docopt import docopt
 import requests
 
 try:
-    __version__ = get_distribution("gig").version
-except DistributionNotFound:  # not installed
+    __version__ = importlib.metadata.version("gig")
+except importlib.metadata.PackageNotFoundError:  # not installed
     pass
 
 API_URL = "https://api.github.com/gitignore/templates"
