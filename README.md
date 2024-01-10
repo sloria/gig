@@ -1,7 +1,7 @@
 # gig
 
 [![PyPI Latest Version](https://badgen.net/pypi/v/gig)](https://pypi.org/project/gig/)
-[![Build Status](https://dev.azure.com/sloria/sloria/_apis/build/status/sloria.gig?branchName=master)](https://dev.azure.com/sloria/sloria/_build/latest?definitionId=3&branchName=master)
+[![Build Status](https://github.com/sloria/gig/actions/workflows/build-release.yml/badge.svg)](https://github.com/sloria/gig/actions/workflows/build-release.yml)
 
 A CLI to create .gitignore files, to keep your source control so fresh and clean.
 
@@ -52,7 +52,7 @@ For more help, run `gig --help`.
 
 ## Requirements
 
-- Python >= 3.6
+- Python >= 3.8
 - Internet connection
 
 ## License
@@ -63,7 +63,7 @@ MIT Licensed.
 
 ### 1.2.0 (unreleased)
 
-- Test against Python 3.8 and 3.9.
+- Support Python 3.8-Python 3.12. Older versions no longer supported.
 
 ### 1.1.0 (2019-06-30)
 
