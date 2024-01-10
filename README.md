@@ -61,7 +61,7 @@ MIT Licensed.
 
 ## Changelog
 
-### 1.2.0 (unreleased)
+### 1.2.0 (2024-01-10)
 
 - Support Python 3.8-Python 3.12. Older versions no longer supported.
 
