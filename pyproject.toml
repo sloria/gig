@@ -15,7 +15,7 @@ classifiers = [
   "Programming Language :: Python :: 3.12",
 ]
 requires-python = ">=3.8"
-dependencies = ["docopt"]
+dependencies = ["docopt", "requests"]
 
 [project.scripts]
 gig = "gig:main"
