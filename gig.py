@@ -23,12 +23,12 @@ Options:
   -v --verbose          Toggle verbose output.
 """
 import importlib.metadata
-import typing
-import sys
 import logging
+import sys
+import typing
 
-from docopt import docopt
 import requests
+from docopt import docopt
 
 try:
     __version__ = importlib.metadata.version("gig")

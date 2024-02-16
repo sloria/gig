@@ -40,7 +40,6 @@ exclude = ["tests/test-output"]
 src = ["src"]
 fix = true
 show-fixes = true
-show-source = true
 
 [tool.ruff.lint]
 select = [
