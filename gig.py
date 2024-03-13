@@ -22,6 +22,7 @@ Options:
   -n --no-header        Suppress the header in the output.
   -v --verbose          Toggle verbose output.
 """
+
 import importlib.metadata
 import logging
 import sys
