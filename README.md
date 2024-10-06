@@ -7,6 +7,15 @@ A CLI to create .gitignore files, to keep your source control so fresh and clean
 
 ![Andre](https://upload.wikimedia.org/wikipedia/commons/d/d8/Andr%C3%A93000.jpg)
 
+
+## Run with uvx
+
+If you have [uv](https://docs.astral.sh/uv/) installed, you can run `gig` as a one-off command with:
+
+```
+$ uvx gig Python > .gitignore
+```
+
 ## Install/Upgrade
 
 ```
