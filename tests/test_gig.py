@@ -21,7 +21,7 @@ def test_single_language(env):
 
 def test_multiple_languages(env):
     res = env.run("gig", "Python", "Ruby")
-    assert "*.py[cod]" in res.stdout
+    assert "__pycache__" in res.stdout
     assert "*.gem" in res.stdout
     assert "### Python ###" in res.stdout
     assert "### Ruby ###" in res.stdout
