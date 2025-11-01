@@ -7,7 +7,6 @@ A CLI to create .gitignore files, to keep your source control so fresh and clean
 
 ![Andre](https://upload.wikimedia.org/wikipedia/commons/d/d8/Andr%C3%A93000.jpg)
 
-
 ## Run with uvx
 
 If you have [uv](https://docs.astral.sh/uv/) installed, you can run `gig` as a one-off command with:
@@ -61,7 +60,7 @@ For more help, run `gig --help`.
 
 ## Requirements
 
-- Python >= 3.8
+- Python >= 3.10
 - Internet connection
 
 ## License
@@ -69,6 +68,10 @@ For more help, run `gig --help`.
 MIT Licensed.
 
 ## Changelog
+
+### unreleased
+
+- Support Python 3.10-3.14.
 
 ### 1.2.0 (2024-01-10)
 

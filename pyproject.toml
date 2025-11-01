@@ -4,15 +4,15 @@ version = "1.2.0"
 description = "Generate .gitignore templates from the command line"
 readme = "README.md"
 license = { file = "LICENSE" }
-authors = [{ name = "Steven Loria", email = "sloria1@gmail.com" }]
+authors = [{ name = "Steven Loria", email = "oss@stevenloria.com" }]
 classifiers = [
   "License :: OSI Approved :: MIT License",
   "Programming Language :: Python :: 3",
-  "Programming Language :: Python :: 3.8",
-  "Programming Language :: Python :: 3.9",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
   "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
 ]
 requires-python = ">=3.8"
 dependencies = ["docopt", "requests"]
